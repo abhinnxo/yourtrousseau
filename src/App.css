@@ -1,0 +1,181 @@
+body {
+  overflow-x: hidden;
+}
+/* NAVBAR */
+.navbar {
+  background-color: #bc0000 !important;
+}
+.navbar a {
+  color: white !important;
+}
+#middle-feature-image {
+  margin-left: 140px !important;
+}
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background-color: #e4baba;
+}
+.hero-para {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.hero-ill {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* IMAGES OF 2 WOMEN */
+
+.feature-title {
+  border-bottom: 5px solid #bc0000;
+  font-weight: bold;
+  margin-left: 16px;
+}
+.feature-store {
+  background-color: #bc0000;
+  color: white;
+}
+.feature-store:hover {
+  background-color: #990303;
+  color: white;
+}
+.feature-read-blog {
+  color: #bc0000;
+  border: 1px solid #bc0000;
+}
+.feature-read-blog:hover {
+  color: white;
+  background-color: #bc0000;
+  border: 1px solid #bc0000;
+}
+.feature-img-3 {
+  z-index: 10;
+  transform: translateY(15px);
+}
+.card > img {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  background-color: #f8f8f8;
+  padding: 24px;
+}
+/* COMING SOON */
+.coming-soon {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.coming-soon-footer {
+  z-index: 10;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* ERROR 404 */
+.error-404 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f8f8;
+  overflow-y: hidden;
+}
+.error-404 h1,
+.error-404 p,
+.error-404 .btn {
+  margin: 16px 0 0 16px;
+}
+.error-404-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+}
+
+.contact-card {
+  background-color: #e4baba;
+}
+.contact-card > img {
+  width: 75px;
+}
+.contact-card a {
+  color: #bc0000;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVE DESIGN */
+@media only screen and (min-width: 1000px) {
+  .hero {
+    height: fit-content;
+  }
+}
+@media only screen and (max-width: 945px) {
+  .women {
+    display: block !important;
+  }
+  .feature-card {
+    display: block !important;
+    justify-content: none;
+  }
+  .feature-card > .card {
+    margin: 16px auto 16px auto;
+  }
+  .error-404-img {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .contact {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 668px) {
+  #middle-feature-image {
+    margin-left: 0 !important;
+  }
+  #feature-reverse-flex {
+    flex-direction: column-reverse;
+  }
+  .feature-text {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .error-404-img {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: fit-content;
+  }
+  .hero-ill {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .brand-img {
+    width: 300px;
+    transform: translateY(-75px);
+  }
+  .hero-ill {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .hero-ill {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero-ill {
+    width: 280px;
+  }
+  #women2 {
+    width: 240px;
+  }
+  .contact-card {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
